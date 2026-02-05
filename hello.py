@@ -742,3 +742,8 @@ orders = [order1, order2, order3, order4]
 # name  = "shakeel raza sandhu sab"
 
 # print(name.title())
+
+def myFun(**kid):
+    print("His last name is " + kid["lname"])
+    
+myFun(fname = "Shakeel", lname = "Sandhu")
